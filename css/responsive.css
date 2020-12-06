@@ -1,0 +1,559 @@
+/* ===================== EXT SM DEVICES ==================== */
+
+
+@media(max-width:575.98px){
+
+    #header-top {
+        background-color: #444444;
+        padding-bottom: 10px;
+    }
+
+    .top-left {
+        text-align: center;
+    }
+
+    .top-right {
+        float: none;
+        text-align: center;
+        margin-top: -10px;
+        padding-bottom: 14px;
+        background: #DE4644;
+        border-radius: 20px;
+    }
+
+    .top-right .account, .top-right .login-reg {
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    /* Menu Area */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .menu-area ul li a::after{
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::after{
+        left: 0;
+        opacity: 1;
+    }
+    .menu-area ul li a::before{
+        position: absolute;
+        content: '';
+        bottom: 2px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::before{
+        left: 0;
+        opacity: 1;
+    }
+    .navbar {
+        text-align: right;
+    }
+
+    /* Banner Area */
+    #banner-area .carousel-inner::after {
+        margin-bottom: 20px;
+    }
+    /* Books Area */
+    #books{
+        padding: 0;
+    }
+    .filtering {
+        margin: 20px 0;
+    }
+    .filtering p {
+        margin: 10px;
+    }
+
+    .book-nasted {
+        height: 365px;
+    }
+    /* Question Area */
+    #question .section-title p {
+        padding: 0;
+    }
+    /* Blog */
+    .blog-nst-bottom span {
+        color: #ddd;
+        /* font-size: 13px; */
+    }
+    .blog-nst-bottom {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    /* Footer Area */
+    #footer-top {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .abouttext p {
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+    .contact-us {
+        text-align: right;
+        margin-top: 20px;
+    }
+    #footer-top .section-title {
+        text-align: center;
+        border-bottom: 2px solid #4A4848;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        margin-top: 20px;
+    }
+
+    .subscribe input {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .media{
+        flex-direction: column;
+    }
+    #events img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Top */
+    .back-to-top {
+        right: 15px;
+    }
+}
+
+
+
+
+/* ===================== EXT MD DEVICES ==================== */
+@media(min-width:576px) and (max-width:676.98px){
+
+    #header-top {
+        background-color: #444444;
+        padding-bottom: 10px;
+    }
+
+    .top-left {
+        text-align: center;
+    }
+
+    .top-right {
+        float: none;
+        text-align: center;
+        margin-top: -10px;
+        padding-bottom: 14px;
+        background: #DE4644;
+        border-radius: 20px;
+    }
+
+    .top-right .account, .top-right .login-reg {
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    /* Menu Area */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .menu-area ul li a::after{
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::after{
+        left: 0;
+        opacity: 1;
+    }
+    .menu-area ul li a::before{
+        position: absolute;
+        content: '';
+        bottom: 2px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::before{
+        left: 0;
+        opacity: 1;
+    }
+    .navbar {
+        text-align: right;
+    }
+
+    /* Banner Area */
+    #banner-area .carousel-inner::after {
+        margin-bottom: 20px;
+    }
+    /* Books Area */
+    #books{
+        padding: 0;
+    }
+    .filtering {
+        margin: 20px 0;
+    }
+    .filtering p {
+        margin: 10px;
+    }
+
+    .book-nasted {
+        height: 365px;
+    }
+    /* Question Area */
+    #question .section-title p {
+        padding: 0;
+    }
+    /* Blog */
+    .blog-nst-bottom span {
+        color: #ddd;
+        /* font-size: 13px; */
+    }
+    .blog-nst-bottom {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    /* Footer Area */
+    #footer-top {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .abouttext p {
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+    .contact-us {
+        text-align: right;
+        margin-top: 20px;
+    }
+    #footer-top .section-title {
+        text-align: center;
+        border-bottom: 2px solid #4A4848;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        margin-top: 20px;
+    }
+
+    .subscribe input {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .media{
+        flex-direction: column;
+    }
+
+    /* Top */
+    .back-to-top {
+        right: 15px;
+    }
+
+    #events img {
+        width: 100%;
+    }
+}
+
+/* ===================== EXT MD DEVICES ==================== */
+@media(min-width:768px) and (max-width:991.98px){
+    #header-top {
+        background-color: #444444;
+        padding-bottom: 10px;
+    }
+
+    .top-left {
+        text-align: center;
+    }
+
+    .top-right {
+        float: none;
+        text-align: center;
+        margin-top: -10px;
+        padding-bottom: 14px;
+        background: #DE4644;
+        border-radius: 20px;
+    }
+
+    .top-right .account, .top-right .login-reg {
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    /* Menu Area */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .menu-area ul li a::after{
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::after{
+        left: 0;
+        opacity: 1;
+    }
+    .menu-area ul li a::before{
+        position: absolute;
+        content: '';
+        bottom: 2px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::before{
+        left: 0;
+        opacity: 1;
+    }
+    .navbar {
+        text-align: right;
+    }
+
+    /* Banner Area */
+    #banner-area .carousel-inner::after {
+        margin-bottom: 20px;
+    }
+    /* Books Area */
+    #books{
+        padding: 0;
+    }
+    .filtering {
+        margin: 20px 0;
+    }
+    .filtering p {
+        margin: 10px;
+    }
+
+    .book-nasted {
+        height: 365px;
+    }
+    /* Question Area */
+    #question .section-title p {
+        padding: 0;
+    }
+    /* Blog */
+    .blog-nst-bottom span {
+        color: #ddd;
+        /* font-size: 13px; */
+    }
+    .blog-nst-bottom {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    /* Footer Area */
+    #footer-top {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .abouttext p {
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+    .contact-us {
+        text-align: right;
+        margin-top: 20px;
+    }
+    #footer-top .section-title {
+        text-align: center;
+        border-bottom: 2px solid #4A4848;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        margin-top: 20px;
+    }
+
+    .subscribe input {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .media{
+        flex-direction: column;
+    }
+
+    #events img {
+        width: 100%;
+    }
+
+    /* Top */
+    .back-to-top {
+        right: 15px;
+    }
+}
+
+/* ===================== EXT MD DEVICES ==================== */
+@media(min-width:678px) and (max-width:768.98px){
+    #header-top {
+        background-color: #444444;
+        padding-bottom: 10px;
+    }
+
+    .top-left {
+        text-align: center;
+    }
+
+    .top-right {
+        float: none;
+        text-align: center;
+        margin-top: -10px;
+        padding-bottom: 14px;
+        background: #DE4644;
+        border-radius: 20px;
+    }
+
+    .top-right .account, .top-right .login-reg {
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    /* Menu Area */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .menu-area ul li a::after{
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::after{
+        left: 0;
+        opacity: 1;
+    }
+    .menu-area ul li a::before{
+        position: absolute;
+        content: '';
+        bottom: 2px;
+        left: -500px;
+        width: 100%;
+        height: 1px;
+        background: #DE4644;
+        transition: all linear.4s;
+        opacity: 0;
+    }
+    .menu-area ul li a:hover::before{
+        left: 0;
+        opacity: 1;
+    }
+    .navbar {
+        text-align: right;
+    }
+
+    /* Banner Area */
+    #banner-area .carousel-inner::after {
+        margin-bottom: 20px;
+    }
+    /* Books Area */
+    #books{
+        padding: 0;
+    }
+    .filtering {
+        margin: 20px 0;
+    }
+    .filtering p {
+        margin: 10px;
+    }
+
+    .book-nasted {
+        height: 365px;
+    }
+    /* Question Area */
+    #question .section-title p {
+        padding: 0;
+    }
+    /* Blog */
+    .blog-nst-bottom span {
+        color: #ddd;
+        /* font-size: 13px; */
+    }
+    .blog-nst-bottom {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    /* Footer Area */
+    #footer-top {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .abouttext p {
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+    .contact-us {
+        text-align: right;
+        margin-top: 20px;
+    }
+    #footer-top .section-title {
+        text-align: center;
+        border-bottom: 2px solid #4A4848;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        margin-top: 20px;
+    }
+
+    .subscribe input {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .media{
+        flex-direction: column;
+    }
+
+    /* Top */
+    .back-to-top {
+        right: 15px;
+    }
+}
+
